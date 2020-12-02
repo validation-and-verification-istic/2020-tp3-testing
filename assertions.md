@@ -2,7 +2,7 @@
 
 Answer the following questions:
 
-1. The following assertion fails `assertTrue(4 * .3 == 1.2)`. Explain why and describe how this type of check should be done.
+1. The following assertion fails `assertTrue(3 * .4 == 1.2)`. Explain why and describe how this type of check should be done.
 
 2. What is the difference between `assertEquals` and `assertSame`? Show scenarios where they produce the same result and scenarios where they do not produce the same result.
 
