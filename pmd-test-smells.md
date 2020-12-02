@@ -11,7 +11,7 @@ Use one of the rules to detect a test smell in one of the following projects:
 - [Apache Commons Lang](https://github.com/apache/commons-lang)
 
 Discuss the test smell you found with the help of PMD and propose here an improvement.
-Include in this file the improved test code.
+Include the improved test code in this file.
 
 ## Answer
 
