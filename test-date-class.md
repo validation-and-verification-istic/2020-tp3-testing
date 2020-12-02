@@ -20,21 +20,26 @@ class Date implements Comparable<Date> {
 }
 ```
 
-The constructor throws an exception is the three given integers do not form a valid date.
-`isValidDate` returns `true` is the three integers for a valid year, otherwise `false`.
+The constructor throws an exception if the three given integers do not form a valid date.
+
+`isValidDate` returns `true` if the three integers form a valid year, otherwise `false`.
+
 `isLeapYear` says if the given integer is a leap year.
+
 `nextDate` returns a new `Date` instance representing the date of the following day.
+
 `previousDate` returns a new `Date` instance representing the date of the previous day.
+
 `compareTo` follows the `Comparable` convention:
 
 * `date.compareTo(other)` returns a positive integer if `date` is posterior to `other`
 * `date.compareTo(other)` returns a negative integer if `date` is anterior to `other`
 * `date.compareTo(other)` returns `0` if `date` and `other` represent the same date.
-* If `other` is `null` throws a `NullPointerException`
+* the method throws a `NullPointerException` if `other` is `null` 
 
 Design and implement a test suite for this `Date` class.
 You may use the test cases discussed in classes as a starting point. 
-Also, feel free to add any extra method you may need.
+Also, feel free to add any extra method you may need to the `Date` class.
 
 
 Use the following steps to design the test suite:
